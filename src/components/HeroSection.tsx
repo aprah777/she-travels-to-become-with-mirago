@@ -25,7 +25,7 @@ const HeroSection = () => {
         
         <Button 
           size="lg" 
-          className="bg-primary hover:bg-primary/90 text-primary-foreground font-inter text-lg px-8 py-4 rounded-full transition-all duration-300 hover:scale-105"
+          className="bg-primary hover:bg-primary/90 text-primary-foreground font-inter text-lg px-8 py-4 rounded-full transition-all duration-300 hover:scale-[1.03] hover:shadow-lg"
         >
           Begin Your Becoming
         </Button>

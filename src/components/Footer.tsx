@@ -43,7 +43,8 @@ const Footer = () => {
           {/* Copyright */}
           <div className="mt-8 pt-8 border-t border-secondary-foreground/20">
             <p className="font-inter text-sm text-secondary-foreground/70">
-              © 2024 Mirago. All rights reserved.
+              © 2025 Alcha Al Lab. All rights reserved.<br />
+              Made with ✨ for adventurous women.
             </p>
           </div>
         </div>

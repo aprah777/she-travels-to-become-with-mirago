@@ -23,9 +23,10 @@ const WhatMiragoDoes = () => {
     <section className="py-24 bg-background">
       <div className="container mx-auto px-6 max-w-6xl">
         <div className="text-center mb-16">
-          <h2 className="font-playfair text-4xl md:text-5xl font-medium text-foreground mb-6">
+          <h2 className="font-playfair text-4xl md:text-5xl font-medium text-foreground mb-4">
             What Mirago Does
           </h2>
+          <div className="w-24 h-px bg-muted-foreground/30 mx-auto mb-8" />
           <p className="font-inter text-xl text-muted-foreground max-w-3xl mx-auto">
             Technology that thinks like a trusted friend, guides like a local, 
             and dreams like you do.

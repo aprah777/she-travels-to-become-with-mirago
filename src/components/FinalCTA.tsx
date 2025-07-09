@@ -20,7 +20,7 @@ const FinalCTA = () => {
         </h2>
         
         <p className="font-inter text-xl text-muted-foreground mb-12 max-w-2xl mx-auto">
-          Life is a collection of luminous chapters — and this one is yours.
+          Life is a collection of experiences — and this one is yours.
         </p>
         
         {/* Email Signup */}
@@ -33,7 +33,7 @@ const FinalCTA = () => {
             />
             <Button 
               size="lg"
-              className="bg-primary hover:bg-primary/90 text-primary-foreground font-inter px-8 rounded-full transition-all duration-300 hover:scale-105"
+              className="bg-primary hover:bg-primary/90 text-primary-foreground font-inter px-8 rounded-full transition-all duration-300 hover:scale-[1.03] hover:shadow-lg"
             >
               Begin the Journey
             </Button>

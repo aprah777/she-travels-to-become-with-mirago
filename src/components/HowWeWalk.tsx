@@ -26,9 +26,10 @@ const HowWeWalk = () => {
     <section className="py-24 bg-muted/30">
       <div className="container mx-auto px-6 max-w-7xl">
         <div className="text-center mb-16">
-          <h2 className="font-playfair text-4xl md:text-5xl font-medium text-foreground mb-6">
+          <h2 className="font-playfair text-4xl md:text-5xl font-medium text-foreground mb-4">
             How We Walk Beside You
           </h2>
+          <div className="w-24 h-px bg-muted-foreground/30 mx-auto mb-8" />
           <p className="font-inter text-xl text-muted-foreground max-w-3xl mx-auto">
             Mirago isn't just technology—it's companionship designed for the woman 
             who travels not to find herself, but to become herself.
@@ -51,8 +52,8 @@ const HowWeWalk = () => {
                   </h3>
                 </div>
               </div>
-              <div className="p-6">
-                <p className="font-inter text-muted-foreground leading-relaxed">
+              <div className="p-8">
+                <p className="font-inter text-muted-foreground leading-relaxed text-lg mb-4">
                   {card.description}
                 </p>
               </div>
