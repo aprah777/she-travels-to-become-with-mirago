@@ -18,6 +18,10 @@ export default {
 			}
 		},
 		extend: {
+			fontFamily: {
+				'playfair': ['Playfair Display', 'serif'],
+				'inter': ['Inter', 'sans-serif'],
+			},
 			colors: {
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
@@ -61,7 +65,13 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
-				}
+				},
+				/* Custom Mirago Brand Colors */
+				'desert-warm': 'hsl(var(--desert-warm))',
+				'golden-hour': 'hsl(var(--golden-hour))',
+				'dusk-deep': 'hsl(var(--dusk-deep))',
+				'sand-light': 'hsl(var(--sand-light))',
+				'earth-rich': 'hsl(var(--earth-rich))'
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
