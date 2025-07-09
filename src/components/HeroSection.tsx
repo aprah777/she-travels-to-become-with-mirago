@@ -13,21 +13,22 @@ const HeroSection = () => {
       </div>
       
       {/* Content */}
-      <div className="relative z-10 text-center text-white max-w-4xl mx-auto px-6">
-        <h1 className="font-playfair text-5xl md:text-7xl lg:text-8xl font-medium leading-tight mb-8">
+      <div className="relative z-10 text-center text-white max-w-5xl mx-auto px-6 animate-fade-in">
+        <h1 className="font-playfair text-6xl md:text-8xl lg:text-9xl font-medium leading-[0.9] mb-12 tracking-tight">
           She travels to become<br />
-          <span className="text-golden-hour">— with Mirago.</span>
+          <span className="text-golden-hour bg-gradient-to-r from-golden-hour to-desert-warm bg-clip-text text-transparent animate-pulse">— with Mirago.</span>
         </h1>
         
-        <p className="font-inter text-xl md:text-2xl font-light mb-12 max-w-2xl mx-auto">
+        <p className="font-inter text-2xl md:text-3xl font-light mb-16 max-w-3xl mx-auto leading-relaxed text-white/90">
           For the woman who chooses the road—and herself.
         </p>
         
         <Button 
           size="lg" 
-          className="bg-primary hover:bg-primary/90 text-primary-foreground font-inter text-lg px-8 py-4 rounded-full transition-all duration-300 hover:scale-[1.03] hover:shadow-lg"
+          className="group bg-primary hover:bg-primary/90 text-primary-foreground font-inter text-lg px-12 py-6 rounded-full transition-all duration-500 hover:scale-105 hover:shadow-2xl hover:shadow-primary/25 relative overflow-hidden"
         >
-          Begin Your Becoming
+          <span className="relative z-10">Begin Your Becoming</span>
+          <div className="absolute inset-0 bg-gradient-to-r from-primary via-golden-hour to-primary opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
         </Button>
       </div>
       

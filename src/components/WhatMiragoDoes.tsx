@@ -33,16 +33,16 @@ const WhatMiragoDoes = () => {
           </p>
         </div>
         
-        <div className="grid md:grid-cols-3 gap-12">
+        <div className="grid md:grid-cols-3 gap-16">
           {features.map((feature, index) => (
-            <div key={index} className="text-center group">
-              <div className="w-20 h-20 mx-auto mb-6 bg-primary/10 rounded-full flex items-center justify-center group-hover:bg-primary/20 transition-colors duration-300">
-                <feature.icon className="w-10 h-10 text-primary" />
+            <div key={index} className="text-center group hover:-translate-y-1 transition-all duration-500">
+              <div className="w-24 h-24 mx-auto mb-8 bg-gradient-to-br from-primary/10 to-primary/20 rounded-full flex items-center justify-center group-hover:bg-gradient-to-br group-hover:from-primary/20 group-hover:to-primary/30 group-hover:shadow-lg group-hover:shadow-primary/20 transition-all duration-500 group-hover:scale-110">
+                <feature.icon className="w-12 h-12 text-primary group-hover:text-primary transition-colors duration-300" />
               </div>
-              <h3 className="font-playfair text-2xl font-medium text-foreground mb-4">
+              <h3 className="font-playfair text-2xl font-medium text-foreground mb-6 group-hover:text-primary transition-colors duration-300">
                 {feature.title}
               </h3>
-              <p className="font-inter text-muted-foreground leading-relaxed">
+              <p className="font-inter text-muted-foreground leading-relaxed text-lg space-y-4">
                 {feature.description}
               </p>
             </div>

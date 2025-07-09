@@ -33,9 +33,10 @@ const FinalCTA = () => {
             />
             <Button 
               size="lg"
-              className="bg-primary hover:bg-primary/90 text-primary-foreground font-inter px-8 rounded-full transition-all duration-300 hover:scale-[1.03] hover:shadow-lg"
+              className="group bg-primary hover:bg-primary/90 text-primary-foreground font-inter px-10 py-6 rounded-full transition-all duration-500 hover:scale-105 hover:shadow-2xl hover:shadow-primary/30 relative overflow-hidden"
             >
-              Begin the Journey
+              <span className="relative z-10">Begin the Journey</span>
+              <div className="absolute inset-0 bg-gradient-to-r from-primary via-golden-hour to-primary opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
             </Button>
           </div>
           
