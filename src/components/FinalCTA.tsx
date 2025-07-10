@@ -4,7 +4,7 @@ import travelFlatlayImage from "@/assets/travel-flatlay.jpg";
 
 const FinalCTA = () => {
   return (
-    <section className="relative py-24 overflow-hidden">
+    <section id="email-capture" className="relative py-24 overflow-hidden">
       {/* Background Image */}
       <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"

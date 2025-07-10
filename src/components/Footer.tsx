@@ -7,7 +7,7 @@ const Footer = () => {
         <div className="text-center">
           {/* Logo */}
           <div className="mb-8">
-            <h3 className="font-playfair text-3xl font-medium">Mirago</h3>
+            <h3 className="font-playfair text-3xl font-medium text-primary">Mirago</h3>
           </div>
           
           {/* Social Icons */}
