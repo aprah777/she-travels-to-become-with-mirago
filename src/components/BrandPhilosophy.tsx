@@ -14,6 +14,10 @@ const BrandPhilosophy = () => {
           "The world is wide, but your becoming is infinite."
         </blockquote>
         
+        <p className="font-playfair text-2xl md:text-3xl lg:text-4xl italic text-muted-foreground mt-6 tracking-wide">
+          — with Mirago
+        </p>
+        
         <div className="w-32 h-px bg-gradient-to-r from-transparent via-muted-foreground/40 to-transparent mx-auto mt-12" />
         
         <div className="mt-16">

@@ -1,52 +1,65 @@
-import { Instagram, Twitter, Facebook } from "lucide-react";
+import { Instagram, Twitter, Linkedin, Video } from "lucide-react";
 
 const Footer = () => {
   return (
-    <footer className="py-16 bg-secondary text-secondary-foreground">
+    <footer className="py-8 bg-secondary text-secondary-foreground">
       <div className="container mx-auto px-6 max-w-6xl">
-        <div className="text-center">
-          {/* Logo */}
-          <div className="mb-8">
-            <h3 className="font-playfair text-3xl font-medium text-primary">Mirago</h3>
+        {/* Main Footer Content */}
+        <div className="flex flex-col md:flex-row md:justify-between md:items-center gap-4">
+          {/* Brand Tagline */}
+          <div className="text-center md:text-left">
+            <p className="font-inter text-lg">
+              <span className="font-bold text-primary">Mirago.ai</span>
+              <span className="text-secondary-foreground"> — Your Brilliant Companion on the Road</span>
+            </p>
           </div>
           
           {/* Social Icons */}
-          <div className="flex justify-center gap-6 mb-8">
+          <div className="flex justify-center md:justify-end gap-4">
             <a 
-              href="#" 
-              className="w-12 h-12 bg-secondary-foreground/10 rounded-full flex items-center justify-center hover:bg-secondary-foreground/20 transition-colors duration-300"
+              href="https://www.instagram.com/mirago.ai/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-8 h-8 text-secondary-foreground hover:text-primary transition-all duration-300 hover:scale-110"
               aria-label="Instagram"
             >
-              <Instagram className="w-5 h-5" />
+              <Instagram className="w-full h-full" />
             </a>
             <a 
-              href="#" 
-              className="w-12 h-12 bg-secondary-foreground/10 rounded-full flex items-center justify-center hover:bg-secondary-foreground/20 transition-colors duration-300"
-              aria-label="Twitter"
+              href="https://www.tiktok.com/@mirago.ai"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-8 h-8 text-secondary-foreground hover:text-primary transition-all duration-300 hover:scale-110"
+              aria-label="TikTok"
             >
-              <Twitter className="w-5 h-5" />
+              <Video className="w-full h-full" />
             </a>
             <a 
-              href="#" 
-              className="w-12 h-12 bg-secondary-foreground/10 rounded-full flex items-center justify-center hover:bg-secondary-foreground/20 transition-colors duration-300"
-              aria-label="Facebook"
+              href="https://www.linkedin.com/company/mirago-ai/about/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-8 h-8 text-secondary-foreground hover:text-primary transition-all duration-300 hover:scale-110"
+              aria-label="LinkedIn"
             >
-              <Facebook className="w-5 h-5" />
+              <Linkedin className="w-full h-full" />
+            </a>
+            <a 
+              href="https://x.com/Mirago_ai"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-8 h-8 text-secondary-foreground hover:text-primary transition-all duration-300 hover:scale-110"
+              aria-label="X (Twitter)"
+            >
+              <Twitter className="w-full h-full" />
             </a>
           </div>
-          
-          {/* Tagline */}
-          <p className="font-inter text-lg font-light">
-            Mirago.ai — Your Brilliant Companion on the Road
+        </div>
+        
+        {/* Copyright */}
+        <div className="mt-6 pt-4 border-t border-secondary-foreground/20 text-center">
+          <p className="font-inter text-sm" style={{ color: '#FFFFFFB3' }}>
+            © 2025 Aloha Al Lab. All rights reserved. Made with ❤️ for adventurous women.
           </p>
-          
-          {/* Copyright */}
-          <div className="mt-8 pt-8 border-t border-secondary-foreground/20">
-            <p className="font-inter text-sm text-secondary-foreground/70">
-              © 2025 Alcha Al Lab. All rights reserved.<br />
-              Made with ✨ for adventurous women.
-            </p>
-          </div>
         </div>
       </div>
     </footer>
