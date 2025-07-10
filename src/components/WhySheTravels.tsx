@@ -1,6 +1,5 @@
 const WhySheTravels = () => {
-  return (
-    <section className="py-40 bg-background border-t border-magazine-border">
+  return <section className="py-40 bg-background border-t border-magazine-border">
       <div className="container mx-auto px-8 max-w-5xl">
         <h2 className="font-playfair text-5xl md:text-6xl font-medium text-foreground mb-6 text-center tracking-wider">
           Why She Travels
@@ -25,7 +24,7 @@ const WhySheTravels = () => {
             
             <p className="text-xl md:text-2xl leading-[2.2] opacity-90 tracking-wide">
               We believe solo travel is not a detour.<br />
-              <span className="italic text-magazine-emphasis font-medium tracking-wider text-lg md:text-xl small-caps">It's a rite of passage.</span>
+              <span className="italic text-magazine-emphasis font-medium tracking-wider text-lg small-caps md:text-3xl">It's a rite of passage.</span>
             </p>
             
             <p className="text-xl md:text-2xl leading-[2.2] tracking-wide">
@@ -48,8 +47,6 @@ const WhySheTravels = () => {
       </div>
       
       <div className="w-full h-px bg-magazine-border mt-20" />
-    </section>
-  );
+    </section>;
 };
-
 export default WhySheTravels;
