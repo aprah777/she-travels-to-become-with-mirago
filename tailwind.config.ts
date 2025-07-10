@@ -18,11 +18,10 @@ export default {
 			}
 		},
 		extend: {
-      fontFamily: {
-        'playfair': ['Playfair Display', 'serif'],
-        'inter': ['Inter', 'sans-serif'],
-        'source-serif': ['Source Serif Pro', 'Georgia', 'serif'],
-      },
+			fontFamily: {
+				'playfair': ['Playfair Display', 'serif'],
+				'inter': ['Inter', 'sans-serif'],
+			},
 			colors: {
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
@@ -72,10 +71,7 @@ export default {
 				'golden-hour': 'hsl(var(--golden-hour))',
 				'dusk-deep': 'hsl(var(--dusk-deep))',
 				'sand-light': 'hsl(var(--sand-light))',
-				'earth-rich': 'hsl(var(--earth-rich))',
-				'magazine-text': 'hsl(var(--magazine-text))',
-				'magazine-emphasis': 'hsl(var(--magazine-emphasis))',
-				'magazine-border': 'hsl(var(--magazine-border))'
+				'earth-rich': 'hsl(var(--earth-rich))'
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
