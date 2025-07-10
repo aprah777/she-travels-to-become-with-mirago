@@ -34,13 +34,13 @@ const WhySheTravels = () => {
             
             <p className="text-xl md:text-2xl leading-[2.2] tracking-wide">
               We don't tell her where to go.<br />
-              <span className="italic text-magazine-emphasis font-medium tracking-wider">We ask who she's <span className="font-semibold">becoming</span>.</span>
+              <span className="italic text-magazine-emphasis tracking-wider font-medium text-2xl">We ask who she's <span className="font-semibold">becoming</span>.</span>
             </p>
             
             <p className="text-xl md:text-2xl leading-[2.4] tracking-wide">
               We walk beside her —<br />
               again and again,<br className="font-medium" />
-              <span className="font-medium text-magazine-emphasis">on every road she reclaims as her own</span>.
+              <span className="font-medium text-magazine-emphasis text-3xl">on every road she reclaims as her own</span>.
             </p>
           </div>
         </div>
