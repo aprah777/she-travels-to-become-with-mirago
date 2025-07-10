@@ -17,6 +17,12 @@ jobs:
         with:
           node-version: 20
 
+      # 将 GitHub Secrets 写入 .env 文件
+      - name: Inject Supabase Secrets into .env
+        run: |
+          echo "VITE_SUPABASE_URL=${{ secrets.VITE_SUPABASE_URL }}" >> .env
+          echo "VITE_SUPABASE_ANON_KEY=${{ secrets.VITE_SUPABASE_ANON_KEY }}" >> .env
+
       - run: npm install
       - run: npm run build
 

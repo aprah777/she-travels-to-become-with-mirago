@@ -8,14 +8,27 @@ import {
   ToastViewport,
 } from "@/components/ui/toast"
 
-export function Toaster() {
+interface ToasterProps {
+  toastOptions?: {
+    className?: string
+    duration?: number
+  }
+  position?: "top-left" | "top-right" | "bottom-left" | "bottom-right"
+}
+
+export function Toaster({ toastOptions, position = "bottom-right" }: ToasterProps) {
   const { toasts } = useToast()
 
   return (
-    <ToastProvider>
+    <ToastProvider swipeDirection="right">
       {toasts.map(function ({ id, title, description, action, ...props }) {
         return (
-          <Toast key={id} {...props}>
+          <Toast
+            key={id}
+            {...props}
+            className={toastOptions?.className}
+            duration={toastOptions?.duration}
+          >
             <div className="grid gap-1">
               {title && <ToastTitle>{title}</ToastTitle>}
               {description && (
@@ -27,7 +40,7 @@ export function Toaster() {
           </Toast>
         )
       })}
-      <ToastViewport />
+      <ToastViewport className={`toast-viewport-${position}`} />
     </ToastProvider>
   )
 }
