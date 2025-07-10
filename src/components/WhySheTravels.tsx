@@ -39,7 +39,7 @@ const WhySheTravels = () => {
             
             <p className="text-xl md:text-2xl leading-[2.4] tracking-wide">
               We walk beside her —<br />
-              again and again,<br />
+              again and again,<br className="font-medium" />
               <span className="font-medium text-magazine-emphasis">on every road she reclaims as her own</span>.
             </p>
           </div>
